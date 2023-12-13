@@ -12,7 +12,6 @@ import { CatsService } from './cats.service';
 import { CreateCatDto } from './dto/create-cat.dto';
 import { UpdateCatDto } from './dto/update-cat.dto';
 
-@ApiBearerAuth()
 @ApiTags('cats')
 @Controller('cats')
 export class CatsController {
