@@ -9,32 +9,32 @@
   "routes": [
     {
       "src": "/(.*\\.css)$",
-      "dest": "/apps/app/src/assets/:1",
+      "dest": "/apps/api/src/assets/:1",
       "methods": ["GET"]
     },
     {
       "src": "/(.*\\.png)$",
-      "dest": "/apps/app/src/assets/:1",
+      "dest": "/apps/api/src/assets/:1",
       "methods": ["GET"]
     },
     {
       "src": "/swagger-ui-bundle\\.js$",
-      "dest": "/apps/app/src/assets/:1",
+      "dest": "/apps/api/src/assets/swagger-ui-bundle.js",
       "methods": ["GET"]
     },
     {
       "src": "/swagger-ui-standalone-preset\\.js$",
-      "dest": "/apps/app/src/assets/:1",
+      "dest": "/apps/api/src/assets/swagger-ui-standalone-preset.js",
       "methods": ["GET"]
     },
     {
       "src": "/api/swagger-ui-bundle\\.js$",
-      "dest": "/apps/app/src/assets/:1",
+      "dest": "/apps/api/src/assets/swagger-ui-bundle.js",
       "methods": ["GET"]
     },
     {
       "src": "/api/swagger-ui-standalone-preset\\.js$",
-      "dest": "/apps/app/src/assets/:1",
+      "dest": "/apps/api/src/assets/swagger-ui-standalone-preset.js",
       "methods": ["GET"]
     },
     {
