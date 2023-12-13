@@ -1,5 +1,4 @@
 import { Module } from '@nestjs/common';
-import { ServeStaticModule } from '@nestjs/serve-static';
 
 import { ConfigModule } from './config/config.module';
 import { AuthModule } from './core/auth/auth.module';
@@ -18,9 +17,6 @@ import { UsersModule } from './resource/users/users.module';
     CatsModule,
     TasksModule,
     // ---------------
-    ServeStaticModule.forRoot({
-      exclude: ['api/*'],
-    })
   ],
   controllers: [
     // AppController

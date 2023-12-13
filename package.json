@@ -19,7 +19,6 @@
     "@nestjs/mapped-types": "*",
     "@nestjs/passport": "^10.0.2",
     "@nestjs/platform-express": "^10.0.2",
-    "@nestjs/serve-static": "^4.0.0",
     "@nestjs/swagger": "^7.1.13",
     "@swc/helpers": "~0.5.2",
     "axios": "^1.0.0",
