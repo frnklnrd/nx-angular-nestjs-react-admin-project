@@ -20,10 +20,11 @@ import { UsersModule } from './resource/users/users.module';
     TasksModule,
     // ---------------
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '../../..', 'admin', 'vercel-static'),
+      rootPath: join(__dirname, '../../../../vercel-static'),
       // rootPath: join(__dirname, '../../../..', 'dist', 'apps', 'admin'),
       exclude: ['/api/*'],
     }),
+    // ---------------
   ],
   controllers: [
     // AppController
