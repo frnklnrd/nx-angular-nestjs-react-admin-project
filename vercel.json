@@ -12,11 +12,6 @@
   ],
   "routes": [
     {
-      "src": "/",
-      "dest": "/vercel/index.html",
-      "methods": ["GET"]
-    },
-    {
       "src": "/backend/(.*)",
       "dest": "/apps/api/src/main.ts",
       "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"]
