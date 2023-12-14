@@ -17,7 +17,7 @@ const httpClient = (url: string, options = {} as any) => {
 };
 
 export const dataProvider = simpleRestProvider(
-  'http://localhost:3000/api',
+  'https://nx-angular-nestjs-react-admin-project.vercel.app/api',
   httpClient
 );
 

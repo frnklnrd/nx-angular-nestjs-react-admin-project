@@ -20,7 +20,7 @@ import { UsersModule } from './resource/users/users.module';
     TasksModule,
     // ---------------
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '../../../..','dist','apps','admin'),
+      rootPath: join(__dirname, '../../../..', 'dist', 'apps', 'admin'),
       exclude: ['/api/*'],
     }),
   ],
