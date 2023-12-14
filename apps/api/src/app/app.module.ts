@@ -21,10 +21,7 @@ import { UsersModule } from './resource/users/users.module';
     // ---------------
     ServeStaticModule.forRoot({
       rootPath: join(__dirname, '..', 'assets'),
-      exclude: [
-        '/api/*',
-        '/backend/api/*'
-      ],
+      exclude: ['/api/*'],
     }),
   ],
   controllers: [
